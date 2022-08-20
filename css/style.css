@@ -445,7 +445,7 @@ h6, .h6 {
 }
 
 .display-3 {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -603,6 +603,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  
 }
 
 @media (min-width: 576px) {
@@ -4022,7 +4023,7 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 100%;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -6019,6 +6020,7 @@ a.close.disabled {
   color: #fff;
   text-align: center;
 }
+
 
 @keyframes spinner-border {
   to {
@@ -9545,11 +9547,21 @@ h6,
   z-index: 1;
 }
 
+
 @media (max-width: 576px) {
   .carousel-caption h4 {
     font-size: 18px;
   }
   .carousel-caption h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-captionNext h4 {
+    font-size: 18px;
+  }
+  .carousel-captionNext h1 {
     font-size: 30px;
   }
 }
